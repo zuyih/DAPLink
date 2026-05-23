@@ -1,0 +1,7 @@
+common:
+    sources:
+        board:
+            - source/board/frdmke02z40m.c
+        family:
+            - source/family/freescale/ke02z40m/target.c
+            - source/family/freescale/target_reset_Lseries.c

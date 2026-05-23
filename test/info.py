@@ -57,6 +57,7 @@ PROJECT_RELEASE_INFO = [
     ("k20dx_frdmkl43z_if",                          True,       0x8000,     "bin"       ),
     ("k20dx_frdmkl46z_if",                          True,       0x8000,     "bin"       ),
     ("k20dx_frdmkl82z_if",                          True,       0x5000,     "bin"       ),
+    ("k20dx_frdmke02z40m_if",                       True,       0x8000,     "bin"       ),
     ("k20dx_frdmke15z_if",                          True,       0x8000,     "bin"       ),
     ("k20dx_frdmke16z_if",                          True,       0x8000,     "bin"       ),
     ("k20dx_twrke18f_if",                           True,       0x8000,     "bin"       ),
@@ -172,6 +173,7 @@ SUPPORTED_CONFIGURATIONS = [
     (   0x0260,     VENDOR_TO_FAMILY('NXP', 2),         'k20dx_frdmkl26z_if',                       'k20dx_bl',         None                                    ),
     (   0x0261,     VENDOR_TO_FAMILY('NXP', 2),         'k20dx_frdmkl27z_if',                       'k20dx_bl',         'FRDM-KL27Z'                            ),
     (   0x0262,     VENDOR_TO_FAMILY('NXP', 2),         'k20dx_frdmkl43z_if',                       'k20dx_bl',         'FRDM-KL43Z'                            ),
+    (   0x0270,     VENDOR_TO_FAMILY('NXP', 2),         'k20dx_frdmke02z40m_if',                    'k20dx_bl',         None                                    ),
     (   0x0311,     VENDOR_TO_FAMILY('NXP', 1),         'k20dx_frdmk66f_if',                        'k20dx_bl',         'FRDM-K66F'                             ),
     (   0x0330,     VENDOR_TO_FAMILY('NXP', 7),         'k20dx_twrkv58f220m_if',                    'k20dx_bl',         None                                    ),
     (   0x0350,     VENDOR_TO_FAMILY('Stub', 1),        'k20dx_xdot_l151_if',                       'k20dx_bl',         None                                    ), # TODO - set target to 'MTS-xDot-L151CC'
@@ -294,6 +296,7 @@ BOARD_ID_LOCKED_WHEN_ERASED = set([
     0x0206,  # TWR-KE18F
     0x0220,  # KL46Z
     0x0210,  # KL05Z
+    0x0270,  # FRDM-KE02Z40M
     0x0213,  # FRDM-KE15Z
     0x0233,  # FRDM-KE16Z
     0x0216,  # HVP-KE18F
