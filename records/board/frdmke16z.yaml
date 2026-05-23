@@ -1,0 +1,7 @@
+common:
+    sources:
+        board:
+            - source/board/frdmke16z.c
+        family:
+            - source/family/freescale/ke16z/target.c
+            - source/family/freescale/target_reset_Lseries.c
